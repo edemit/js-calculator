@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="fonts/fonts.css">
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <section class="calculator">
+        <div class="container">
+            <div class="calculator__wrapper">
+                <div class="calculator__screen">
+                    <div class="calculator__screen__main">
+                        <p class="calculator__screen__main__example">888888</p>
+                        <p class="calculator__screen__main__example--dots">......</p>
+                        <div class="calculator__screen__main__numbers">
+                            <p id="number1" class="calculator__screen__main__number--1"></p>
+                            <p id="number2" class="calculator__screen__main__number--2"></p>
+                            <p id="number3" class="calculator__screen__main__number--3"></p>
+                            <p id="number4" class="calculator__screen__main__number--4"></p>
+                            <p id="number5" class="calculator__screen__main__number--5"></p>
+                            <p id="number6" class="calculator__screen__main__number--6"></p>
+                        </div>
+                        <div class="calculator__screen__main__dots">
+                            <p id="dot1" onclick="buttonClickDot('.')" class="calculator__screen__main__dot--1"></p>
+                            <p id="dot2" onclick="buttonClickDot('.')" class="calculator__screen__main__dot--2"></p>
+                            <p id="dot3" onclick="buttonClickDot('.')" class="calculator__screen__main__dot--3"></p>
+                            <p id="dot4" onclick="buttonClickDot('.')" class="calculator__screen__main__dot--4"></p>
+                            <p id="dot5" onclick="buttonClickDot('.')" class="calculator__screen__main__dot--5"></p>
+                            <p id="dot6" onclick="buttonClickDot('.')" class="calculator__screen__main__dot--6"></p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="calculator__buttons">
+                    <button onclick="buttonClick('7')" class="calculator__buttons__button">7</button>
+                    <button onclick="buttonClick('8')" class="calculator__buttons__button">8</button>
+                    <button onclick="buttonClick('9')" class="calculator__buttons__button">9</button>
+                    <button onclick="buttonClickSlash()" class="calculator__buttons__button">/</button>
+                    <button onclick="buttonClick('4')" class="calculator__buttons__button">4</button>
+                    <button onclick="buttonClick('5')" class="calculator__buttons__button">5</button>
+                    <button onclick="buttonClick('6')" class="calculator__buttons__button">6</button>
+                    <button onclick="buttonClickMulti()" class="calculator__buttons__button">x</button>
+                    <button onclick="buttonClick('1')" class="calculator__buttons__button">1</button>
+                    <button onclick="buttonClick('2')" class="calculator__buttons__button">2</button>
+                    <button onclick="buttonClick('3')" class="calculator__buttons__button">3</button>
+                    <button onclick="buttonClickPlus()" class="calculator__buttons__button">+</button>
+                    <button onclick="buttonClick('0')" class="calculator__buttons__button">0</button>
+                    <button onclick="buttonClick('.')" class="calculator__buttons__button">.</button>
+                    <button onclick="buttonClickEqual()" class="calculator__buttons__button">=</button>
+                    <button onclick="buttonClickMinus()" class="calculator__buttons__button">-</button>
+                    <button onclick="buttonClickClean()" class="calculator__buttons__button">C</button>
+                    <button onclick="buttonClickBack()" class="calculator__buttons__button">←</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

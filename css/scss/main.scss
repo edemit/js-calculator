@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'DS-Digital';
+}
+h1, h2, h3, h4, div, p, a, ul, li, img, label, form{
+    margin: 0;
+    padding: 0;
+    display: block;
+    box-sizing: border-box;
+}
+.container{
+    width: 1044px;
+    margin: 0 auto;
+    
+}
+
+@import'_calc';

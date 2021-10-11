@@ -1,0 +1,12 @@
+@font-face{
+    font-family: 'DS-Digital';
+    src: url(../fonts/DS-DigitalBoltItalic.ttf);
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face{
+    font-family: 'arial';
+    src: url(../fonts/arial.ttf);
+    font-style: normal;
+    font-weight: 400;
+}
